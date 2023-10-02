@@ -2,9 +2,11 @@
 
 # Degree Preserving Network Growth (DPG)
 
+This repo contains code to generate a network by growing a smaller network using the DPG algorithm. Concepts, ideas, algorithms, and results for DPG are well detailed in this [Nature Physics article](https://www.nature.com/articles/s41567-021-01417-7) and its [SI section](https://static-content.springer.com/esm/art%3A10.1038%2Fs41567-021-01417-7/MediaObjects/41567_2021_1417_MOESM1_ESM.pdf). This work was a  part of my Ph.D. research among [others](https://scholar.google.com/citations?hl=en&user=9eswjPQAAAAJ).
+
 ### What is DPG?
 
-Following abstract from Nature Physics article (accepted  2021), that I am first author of, best summarizes the model.
+The following abstract from our [publication](https://www.nature.com/articles/s41567-021-01417-7) best summarizes the model.
 
 > Real-world networks evolve over time via the addition or removal of nodes and edges. In current network evolution models, node degree varies or grows arbitrarily, yet there are many networks in which it saturates, such as the number of active contacts of a person, or it is fixed, such as the valence of an atom in a molecule, thus requiring an entirely different description. DPG is a novel family of network growth processes that preserve node degree, resulting in structures significantly different from previous ones. Despite it being an NP-hard problem in general, the exact structure of most real-world networks can be generated from degree-preserving growth. We show that this process can create scale-free networks with arbitrary exponents, however, without preferential attachment. We present applications to epidemics control via network immunization, viral marketing, knowledge dissemination and the design of molecular isomers with desired properties.
 
@@ -34,5 +36,9 @@ Part of these codes were used to generate data for the research. Codes are organ
 
 ### Author
 
-Shubha Raj Kharel ([LinkedIN](https://www.linkedin.com/in/srkharel/))
+Shubha Raj Kharel
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=9eswjPQAAAAJ)
+
+[LinkedIn](https://www.linkedin.com/in/srkharel/)
 
